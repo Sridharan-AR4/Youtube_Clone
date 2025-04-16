@@ -1,0 +1,106 @@
+.header{
+    font-family: Roboto, Arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom-style: solid; */
+    border-bottom: 1px solid lightgray
+}
+.left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.hamburger-menu{
+    width: 25px;
+    height: 35px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.youtube-logo{
+    width: 75px;
+    height: 40px;
+    cursor: pointer;
+}
+.middle-section{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-width: 470px;
+}
+.search-bar{
+    flex: 1;
+    width: 0;
+    min-width: 0;
+    height: 35px;
+    border: 1px solid lightgray;
+
+}
+.search-bar::placeholder{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: gray;
+}
+.search-icon-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-left-style: none;
+    margin-right: 10px;
+    background-color: rgb(249, 245, 245);
+    cursor: pointer;
+}
+.search-icon{
+    width: 25px;
+    height: 26.5px;
+    padding: 5px 15px;
+}
+.voice-search-icon-container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(249, 245, 245);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.voice-search-icon{
+    width: 25px;
+    height: 25px;
+    padding: 6px;
+}
+.right-section{
+    display: flex;
+    width: 182px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+.upload-icon{
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.youtube-apps{
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.notifications-icon{
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.profile-logo{
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
